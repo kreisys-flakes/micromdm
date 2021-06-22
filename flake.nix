@@ -19,5 +19,9 @@
       inherit micromdm;
       defaultPackage = micromdm;
     };
+
+    hydraJobs = { micromdm }: {
+      inherit micromdm;
+    };
   };
 }

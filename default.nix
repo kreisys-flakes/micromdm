@@ -14,5 +14,6 @@ buildGoModule rec {
     homepage = "https://micromdm.io";
     license = licenses.mit;
     platforms = platforms.linux ++ platforms.darwin;
+    hydraPlatforms = platforms.linux;
   };
 }
