@@ -1,0 +1,58 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1624359033,
+        "narHash": "sha256-VUCSle6emCfIwMItRfMuDl2UCUNrN+AXCMV6l1AZM7E=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "d2b489b24ae30278ad31e06801c3853b0edbbd9d",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "src": "src",
+        "utils": "utils"
+      }
+    },
+    "src": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1623876527,
+        "narHash": "sha256-WQgpt/QGsU9/K4in5+Ije9XhCZKt77hvz6j9f0s0DyY=",
+        "owner": "micromdm",
+        "repo": "micromdm",
+        "rev": "1dfa0a8fd0367788f1aefd29fd48915b60537332",
+        "type": "github"
+      },
+      "original": {
+        "owner": "micromdm",
+        "repo": "micromdm",
+        "type": "github"
+      }
+    },
+    "utils": {
+      "locked": {
+        "lastModified": 1623182707,
+        "narHash": "sha256-JmnqZVS1VP/tSQGSeNs+ru3F3it3ceev7k2rcL4rBGw=",
+        "owner": "kreisys",
+        "repo": "flake-utils",
+        "rev": "f5b5f258e88d0de1ec97d2e892f20b38796f48ea",
+        "type": "github"
+      },
+      "original": {
+        "owner": "kreisys",
+        "repo": "flake-utils",
+        "type": "github"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
